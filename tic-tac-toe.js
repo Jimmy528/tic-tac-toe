@@ -24,7 +24,7 @@ function doSomthi() {
   newShape.setAttribute("cx","180")
   newShape.setAttribute("cy","55")
   newShape.setAttribute("r","20")
-  newShape.setAttribute("fill","lightgreen")
+  newShape.setAttribute("fill","orange")
   var canvas = document.getElementById("game-board")
  canvas.appendChild(newShape)
 }
@@ -33,7 +33,7 @@ function doSomth() {
   newShape.setAttribute("cx","180")
   newShape.setAttribute("cy","115")
   newShape.setAttribute("r","20")
-  newShape.setAttribute("fill","lightgreen")
+  newShape.setAttribute("fill","orange")
   var canvas = document.getElementById("game-board")
  canvas.appendChild(newShape)
 }
@@ -51,7 +51,7 @@ function doSom() {
   newShape.setAttribute("cx","50")
   newShape.setAttribute("cy","115")
   newShape.setAttribute("r","20")
-  newShape.setAttribute("fill","lightgreen")
+  newShape.setAttribute("fill","orange")
   var canvas = document.getElementById("game-board")
  canvas.appendChild(newShape)
 }
@@ -69,7 +69,7 @@ function doSomthing2() {
   newShape.setAttribute("cx","115")
   newShape.setAttribute("cy","175")
   newShape.setAttribute("r","20")
-  newShape.setAttribute("fill","lightgreen")
+  newShape.setAttribute("fill", "orange")
   var canvas = document.getElementById("game-board")
  canvas.appendChild(newShape)
 }
