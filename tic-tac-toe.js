@@ -1,21 +1,30 @@
 // Write all your JavaScript code in this file!
 // You can use the namespace variable that's defined here.
 var namespace = "http://www.w3.org/2000/svg"
+var turn="player1"
 function doSomthing() {
   var newShape = document.createElementNS(namespace, "circle")
   newShape.setAttribute("cx","50")
   newShape.setAttribute("cy","55")
   newShape.setAttribute("r","20")
-  newShape.setAttribute("fill","lightgreen")
+  newShape.setAttribute("fill","#0BCC64")
+  if(turn == "player1"){
+    newShape.setAttribute("fill","#0BCC64")
+    turn = "player2"
+  }else{
+    newShape.setAttribute("fill","orange")
+    turn = "player1"
+  }
   var canvas = document.getElementById("game-board")
  canvas.appendChild(newShape)
 }
+
 function doSomthin() {
   var newShape = document.createElementNS(namespace, "circle")
   newShape.setAttribute("cx","115")
   newShape.setAttribute("cy","55")
   newShape.setAttribute("r","20")
-  newShape.setAttribute("fill","lightgreen")
+  newShape.setAttribute("fill","#0BCC64")
   var canvas = document.getElementById("game-board")
  canvas.appendChild(newShape)
 }
@@ -24,7 +33,7 @@ function doSomthi() {
   newShape.setAttribute("cx","180")
   newShape.setAttribute("cy","55")
   newShape.setAttribute("r","20")
-  newShape.setAttribute("fill","orange")
+  newShape.setAttribute("fill","#0BCC64")
   var canvas = document.getElementById("game-board")
  canvas.appendChild(newShape)
 }
@@ -33,7 +42,7 @@ function doSomth() {
   newShape.setAttribute("cx","180")
   newShape.setAttribute("cy","115")
   newShape.setAttribute("r","20")
-  newShape.setAttribute("fill","orange")
+  newShape.setAttribute("fill","#0BCC64")
   var canvas = document.getElementById("game-board")
  canvas.appendChild(newShape)
 }
@@ -42,7 +51,7 @@ function doSomt() {
   newShape.setAttribute("cx","115")
   newShape.setAttribute("cy","115")
   newShape.setAttribute("r","20")
-  newShape.setAttribute("fill","lightgreen")
+  newShape.setAttribute("fill","#0BCC64")
   var canvas = document.getElementById("game-board")
  canvas.appendChild(newShape)
 }
@@ -51,7 +60,7 @@ function doSom() {
   newShape.setAttribute("cx","50")
   newShape.setAttribute("cy","115")
   newShape.setAttribute("r","20")
-  newShape.setAttribute("fill","orange")
+  newShape.setAttribute("fill","#0BCC64")
   var canvas = document.getElementById("game-board")
  canvas.appendChild(newShape)
 }
@@ -60,7 +69,7 @@ function doSomthing1() {
   newShape.setAttribute("cx","50")
   newShape.setAttribute("cy","175")
   newShape.setAttribute("r","20")
-  newShape.setAttribute("fill","lightgreen")
+  newShape.setAttribute("fill","#0BCC64")
   var canvas = document.getElementById("game-board")
  canvas.appendChild(newShape)
 }
@@ -69,7 +78,7 @@ function doSomthing2() {
   newShape.setAttribute("cx","115")
   newShape.setAttribute("cy","175")
   newShape.setAttribute("r","20")
-  newShape.setAttribute("fill", "orange")
+  newShape.setAttribute("fill", "#0BCC64")
   var canvas = document.getElementById("game-board")
  canvas.appendChild(newShape)
 }
@@ -78,7 +87,7 @@ function doSomthing3() {
   newShape.setAttribute("cx","180")
   newShape.setAttribute("cy","175")
   newShape.setAttribute("r","20")
-  newShape.setAttribute("fill","lightgreen")
+  newShape.setAttribute("fill","#0BCC64")
   var canvas = document.getElementById("game-board")
  canvas.appendChild(newShape)
 }
